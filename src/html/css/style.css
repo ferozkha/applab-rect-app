@@ -1,0 +1,271 @@
+
+/******** common css ***********/
+
+
+
+/* //////////////// */
+
+/* //////////////// */
+/* ////////////////////// */
+/* //////////// */
+
+/* /////////// */
+/* /////////////// */
+
+/* //////////////////// */
+
+/* //////////////////// */
+section.getAwosomeFeature {
+    margin-top: 100px;
+}
+section.getAwosomeFeature h1 {
+    text-align: center;
+    color: #242f51;
+    font-size: 36px;
+    font-weight: 600;
+    text-transform: inherit;
+    margin-bottom: 20px;
+}
+section.getAwosomeFeature p {
+    text-align: center;
+    font-size: 1rem;
+    color: #616368;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+section.getAwosomeFeature .button {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 50px;
+}
+section.getAwosomeFeature button {
+    border: 1px solid #2500f9;
+
+    text-transform: capitalize;
+    font-size: 18px;
+    padding: 5px 20px;
+    border-radius: 16px;
+}
+section.getAwosomeFeature button:hover {
+    background-color: #2500f9;
+    color: #ffffff;
+}
+.getAwosomeFeatureGroup {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.cardGRoup {
+    border: 1px solid #ebebeb;
+    text-align: center;
+}
+.topCard {
+    background-color:#fafcfd;
+    padding: 10px;
+}
+.topCard h1 {
+    font-size: 60px;
+    color: #242f51;
+}
+.topCard span {
+    color: #999ca5;
+    font-size: 18px;
+}
+.topCard h4 {
+    font-size: 1.02rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #242f51;
+}
+.topCard p {
+    font-size: 1rem;
+    color: #616368;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.cardGRoup ul {
+    padding-left: 0;
+    line-height: 40px;
+}
+.cardGRoup ul li{
+    font-size: 1rem;
+    color: #616368;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.cardGRoup button{
+    margin-bottom: 20px;
+    background-color: #2500f9;
+    color: #ffffff;
+}
+/* ////////////////////// */
+section.meetClient {
+    margin-top: 100px;
+}
+.meetClintGroup {
+    display: flex;
+}
+.meetClintGroup>div {
+    width: 50%;
+}
+.meetClintGroup h1 {
+    color: #242f51;
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: inherit;
+}
+.meetClintGroup h4 {
+    color: #242f51;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: inherit;
+}
+.meetClintGroup p {
+    font-size: 1rem;
+    color: #616368;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.crdGroup {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.crdGroup .subGroup {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.crdGroup .subGroup>div a {
+    background-color: #eff3f8;
+    padding: 8px 16px;
+    border-radius: 50%;
+    color: #d0d3d7;
+}
+.crdGroup .subGroup>div a:hover{
+    color: #242f51;
+}
+.crdGroup .subGroup h4 {
+    color: #242f51;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: inherit;
+}
+.singleGroup img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    margin-bottom: 30px;
+}
+.singleGroup {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.singleGroup span{
+    color: #616368;
+    font-size: 14px;
+    font-weight: 400;
+}
+/* /////////////////////// */
+section.frequentAskedQuestion {
+    margin-top: 100px;
+}
+section.frequentAskedQuestion .heading {
+    text-align: center;
+}
+section.frequentAskedQuestion p {
+    font-size: 1rem;
+    color: #616368;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.emergrncyHeading h3 {
+    font-size: 20px;
+    color: #242f51;
+    font-weight: 600;
+}
+.emergrncyHeading p {
+    font-size: 1rem;
+    color: #616368;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.emergrncyHeading {
+    background-color: #f5f7fa;
+    padding: 10px 30px;
+    border-bottom: 5px solid #ffffff;
+}
+.frequentAskedQuestion ul li {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f5f7fa;
+    padding: 10px 30px;
+    border-bottom: 5px solid #ffffff;
+}
+.frequentAskedQuestion ul {
+    background-color: #f5f7fa;
+    display: flex;
+    flex-direction: column;
+}
+.frequentAskedQuestion ul li a {
+    color: #242f51;
+    font-size: 20px;
+    font-weight: 400;
+}
+/* /////////////////////////// */
+section.downloadOurApp {
+    margin: 100px 0;
+}
+section.downloadOurApp h1 {
+    color: #242f51;
+    font-size: 48px;
+    font-weight: 600;
+    text-transform: inherit;
+}
+section.downloadOurApp p {
+    font-size: 1rem;
+    color: #616368;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+/* ///////////////////// */
+.footer {
+    background-color: #09142e;
+    padding: 100px 0;
+}
+.footer img {
+    display: flex;
+    margin: 0px auto;
+    margin-bottom: 30px;
+}
+.footerMenu {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.footerMenu a {
+    font-size: 1rem;
+    color: #ffffff;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+.footerSocial{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.footerSocial a{
+    font-size: 1rem;
+    color: #ffffff;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+.footer p {
+    text-align: center;
+    color: #4a4949;
+    font-size: 12px;
+    font-weight: 400;
+}

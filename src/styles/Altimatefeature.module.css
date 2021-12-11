@@ -1,0 +1,61 @@
+.altimateFeature {
+    margin-top: 90px;
+}
+.altimateFeature h1 {
+    color: #242f51;
+    font-size: 36px;
+    font-weight: 600;
+    text-transform: initial;
+}
+.altimateFeature p {
+    font-size: 1rem;
+    color: #616368;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.altimateFeature>div {
+    display: flex;
+    column-gap: 50px;
+}
+.altimateFeatureGroup {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: min-content;
+    grid-gap:30px;
+}
+img#img1 {
+    position: relative;
+    right: 70px;
+}
+img#img2 {
+    position: absolute;
+    right: 0;
+}
+.SubGroup img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    margin-bottom: 30px;
+}
+.SubGroup h1 {
+    color: #242f51;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+.SubGroup p {
+    font-size: 1rem;
+    color: #616368;
+    font-weight: 400;
+    text-transform: capitalize;
+    text-align: start;
+}
+button {
+    border-radius: 10px 20px;
+    background-color: #2500f9;
+    padding: 10px 20px;
+    color: #ffffff;
+    text-transform: capitalize;
+    border-style: none;
+}

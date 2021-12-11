@@ -1,0 +1,24 @@
+.subGroup {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.subGroup h1 {
+    color: #f55767;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.subGroup p {
+    font-size: 1rem;
+    color: #616368;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 25px;
+}
+.subGroup img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+}

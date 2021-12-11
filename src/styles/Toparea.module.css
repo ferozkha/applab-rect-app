@@ -1,0 +1,26 @@
+.topArea {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    margin-top: 100px;
+}
+.topArea ul {
+    display: flex;
+    justify-content: end;
+    gap: 30px;
+    align-items: center;
+}
+.topArea ul a {
+    font-size: 16px;
+    color: #242f51;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.topArea button {
+    border-radius: 15px;
+    background-color: #2500f9;
+    padding: 10px;
+    color: #ffffff;
+    text-transform: capitalize;
+    border-style: none;
+}

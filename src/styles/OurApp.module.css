@@ -1,0 +1,32 @@
+.heading {
+    text-align: center;
+    margin-bottom: 60px;
+}
+.ourApp {
+    margin-top: 90px;
+}
+.ourAppGroup {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+    text-align: center;
+}
+.ourAppSubGroup img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    margin-bottom: 30px;
+}
+.ourAppSubGroup h1{
+    color: #f55767;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 500;
+} 
+.heading p{
+    font-size: 1rem;
+    color: #616368;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin-top: 30px;
+} 

@@ -1,0 +1,49 @@
+.topMiddle {
+    display: flex;
+    gap: 140px;
+    place-content: center;
+}
+.topMiddleLeft {
+    display: flex;
+    flex-direction: column;
+    place-content: center;
+}
+.topMiddleLeft h1 {
+    font-size: 3.75rem;
+    color: #242f51;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.topMiddleLeft a {
+    color: #242f51;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: capitalize;
+    background-color: #e2eaed;
+    width: 280px;
+    border-radius: 10px;
+    display: flex;
+    place-content: stretch;
+    gap: 10px;
+}
+.topMiddleLeft a span {
+    color: #feaa25;
+}
+.buttongroup{
+    margin-top: 20px;
+}
+.topMiddleLeft button {
+    border-style: none;
+    color: #2500f9;
+    height: 40px;
+    width: 140px;
+    font-size: 1rem;
+    text-transform: capitalize;
+    font-weight: 500;
+    background-color: #fff;
+}
+.topMiddleLeft button:hover{
+    background-color: #2500f9;
+    color: #fff;
+    border-radius: 12px;
+}

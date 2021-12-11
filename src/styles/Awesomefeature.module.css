@@ -1,0 +1,26 @@
+ .awesomeAppFeature {
+    margin-top: 100px;
+    display: flex;
+    gap: 100px;
+}
+.headingTop {
+    margin: 30px 0 60px;
+}
+.headingTop h1 {
+    color: #242f51;
+    font-size: 36px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+.headingTop p {
+    color: #616368;
+    font-size: 16px;
+    text-transform: lowercase;
+    font-weight: 400;
+}
+.headinGroup {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}

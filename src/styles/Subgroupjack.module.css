@@ -1,0 +1,19 @@
+.subGroup img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    margin-bottom: 30px;
+}
+.subGroup h1 {
+    color: #f55767;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+.subGroup p {
+    font-size: 1rem;
+    color: #616368;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 25px;
+}
